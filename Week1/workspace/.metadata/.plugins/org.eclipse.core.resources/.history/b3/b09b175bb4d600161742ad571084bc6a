@@ -1,0 +1,42 @@
+# Uses python3
+
+import sys
+
+
+def number_of_components(adj):
+    result = 0
+    ccNum = [0] * n
+    ccNum = reach(adj, ccNum)
+    return result
+
+def reach(adj, ccNum):
+    # write your code here
+    # print(adj)
+    visited = [False] * n
+    cc = 1
+    ccNum = explore(adj, visited, cc, adj[0])
+    return ccNum
+
+
+def explore(adj, visited, ccNum, cc, v):
+    # global visited
+    visited[v] = True
+    for w in adj[v]:
+            if not visited[w]:
+                explore(adj, visited, cc, w)
+                ccNum[w] = cc + 1
+    return ccNum[w]
+
+
+if __name__ == '__main__':
+    file1 = open("03.txt", "r")
+    input = file1.read()
+    data = list(map(int, input.split()))
+    n, m = data[0:2]
+    data = data[2:]
+    edges = list(zip(data[0:(2 * m):2], data[1:(2 * m):2]))
+    adj = [[] for _ in range(n)]
+    for (a, b) in edges:
+        adj[a - 1].append(b - 1)
+        adj[b - 1].append(a - 1)
+    print(number_of_components(adj))

@@ -1,0 +1,10 @@
+INSTUPconnected_components
+D:\Documents\Dropbox\Coursera\Data_Structures_and_Algorithms\Algorithms_On_Graphs\Week1\workspace\pset1\src\connected_components.py
+INFOS:&&2|1|2|0&&2|3|2|0&&3|4|2|0&&3|5|2|0&&3|5|2|0&&3|6|2|0&&3|7|2|0
+input=4
+explore=3
+data=5
+adj=7
+edges=6
+connected_components=2
+number_of_components=1

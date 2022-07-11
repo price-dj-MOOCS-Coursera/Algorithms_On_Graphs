@@ -1,0 +1,31 @@
+-- VERSION_4
+-- START DISKCACHE_2
+D:\Documents\Dropbox\Coursera\Data_Structures_and_Algorithms\Algorithms_On_Graphs\Week1\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\pset1\com.python.pydev.analysis\v2_indexcache
+reachabilityv4_forsub|1483958527531292000|D:\Documents\Dropbox\Coursera\Data_Structures_and_Algorithms\Algorithms_On_Graphs\Week1\workspace\pset1\src\reachabilityv4_forsub.py
+reachabilityv3|1483958366728637000|D:\Documents\Dropbox\Coursera\Data_Structures_and_Algorithms\Algorithms_On_Graphs\Week1\workspace\pset1\src\reachabilityv3.py
+reachabilityv2|1483955792281003000|D:\Documents\Dropbox\Coursera\Data_Structures_and_Algorithms\Algorithms_On_Graphs\Week1\workspace\pset1\src\reachabilityv2.py
+reachabilityv1|1483947774681412000|D:\Documents\Dropbox\Coursera\Data_Structures_and_Algorithms\Algorithms_On_Graphs\Week1\workspace\pset1\src\reachabilityv1.py
+reachability|1483941583064157000|D:\Documents\Dropbox\Coursera\Data_Structures_and_Algorithms\Algorithms_On_Graphs\Week1\workspace\pset1\src\reachability.py
+-- END DISKCACHE
+-- START DICTIONARY
+5
+4=reachabilityv4_forsub
+2=reachabilityv3
+1=reachabilityv2
+5=reachabilityv1
+3=reachability
+-- END DICTIONARY
+-- START TREE 1
+8
+adj|5|adj!11@adj!19@adj!27@adj!35@adj!43@
+dat|5|data!27@data!43@data!35@data!11@data!19@
+edg|5|edges!11@edges!43@edges!27@edges!19@edges!35@
+exp|4|explore!10@explore!42@explore!34@explore!18@
+fil|2|file1!19@file1!11@
+inp|5|input!11@input!43@input!35@input!27@input!19@
+num|0|
+rea|5|reach!26@reach!10@reach!42@reach!34@reach!18@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE
